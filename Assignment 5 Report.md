@@ -29,6 +29,7 @@ When finding the best two models, C-SFRAT made it easy to compare the different 
 
 As shown in the image below, the top two models for our failure data are DW3 on F, and IFRGSB on E, F.
 ![p1](https://user-images.githubusercontent.com/81999006/162554587-f562ee63-2969-491f-a6cf-8d4a83b8df1a.png)
+*Figure 1: Top two models, (DW3 on F), and (GM on F)*
 
 ## Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)	
 
@@ -38,12 +39,15 @@ To determine the range analysis that was good enough for proceeding, we looked a
 
 ### MVF Graph
 ![mvf](https://user-images.githubusercontent.com/81999006/162554692-6c7e9c5b-44a2-44e3-ae17-9b82fdae1cde.png)
+*Figure 2: MVF Graph*
 
 ### Intensity Graph
 ![intensity](https://user-images.githubusercontent.com/81999006/162554690-fe060d14-b163-48b4-a219-1600c4e75b91.png)
+*Figure 3: Intensity Graph*
 
 ### Reliability Graph Prediction
 ![reliability graph prediction](https://user-images.githubusercontent.com/81999006/162554693-8af29c6d-04c9-4afe-99c9-fba8d96f0e6a.png)
+*Figure 4: Reliability Graph Prediction*
 
 ## A discussion on decision making given a target failure rate	
 
@@ -58,12 +62,21 @@ An advantage of reliability growth analysis is you have options to either inter 
 ## 3 plots for MTTFmin, twice and half of it for your test data	
 ### MTTFmin
 ![MTTF MIN 2000](https://user-images.githubusercontent.com/81999006/162556542-2e4eab71-e31e-4a7c-b162-d0aa55249430.png)
+*Figure 5: Reliability Demonstration Chart with MTTFmin of 2000* 
+
+The SUT is within the continue testing and acceptable green region. This means that as the system was tested more, it eventually ended up in the accpetable region, making the system reliable.
 
 ### Double MTTFmin
 ![MTTF DOUBLE 4000](https://user-images.githubusercontent.com/81999006/162556540-e6865187-dd5d-46ff-af8e-6e435193f6d0.png)
+*Figure 6: Reliability Demonstration Chart with Double MTTFmin* 
+
+The SUT is within the reject region, making the SUT unacceptable and the sytem unreliable.
 
 ### Half MTTFmin
 ![MTTF HALF 1000](https://user-images.githubusercontent.com/81999006/162556541-0410d501-77a7-4458-9fdc-6c7f8e0c733f.png)
+*Figure 6: Reliability Demonstration Chart with Half MTTFmin* 
+
+With the MTTFmin reduced to half, the SUT is completely in the acceptable green region. This means that the system very reliable, as its chance for failure decreased immensely over time.
 
 ## Explain your evaluation and justification of how you decide the MTTFmin	
 
@@ -74,6 +87,8 @@ Our group determined the MTTFmin using trial-and-error with the RDC file. We tri
 Some of the main advantages of using RDC is that it gives us a clear visual representation of what the failure rate of the SUT is. This is very important when testing a system as it gives us an idea on whether the system is reliable enough to deploy. One disadvantage of RDC is that even though it displays the number of failures per unit time, it does not tell us how/why the system failed, which is important for debugging the system. 
 
 # Comparison of Results
+
+
 
 # Discussion on Similarity and Differences of the Two Techniques
 
