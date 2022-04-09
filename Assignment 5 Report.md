@@ -41,9 +41,9 @@ To determine the range analysis that was good enough for proceeding, we looked a
 ![mvf](https://user-images.githubusercontent.com/81999006/162554692-6c7e9c5b-44a2-44e3-ae17-9b82fdae1cde.png)
 *Figure 2: MVF Graph*
 
-### Intensity Graph
+### Failure Intensity Graph
 ![intensity](https://user-images.githubusercontent.com/81999006/162554690-fe060d14-b163-48b4-a219-1600c4e75b91.png)
-*Figure 3: Intensity Graph*
+*Figure 3: Failure Intensity Graph*
 
 ### Reliability Graph Prediction
 ![reliability graph prediction](https://user-images.githubusercontent.com/81999006/162554693-8af29c6d-04c9-4afe-99c9-fba8d96f0e6a.png)
