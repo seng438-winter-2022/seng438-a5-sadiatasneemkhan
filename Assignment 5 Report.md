@@ -88,7 +88,7 @@ Some of the main advantages of using RDC is that it gives us a clear visual repr
 
 # Comparison of Results
 
-
+With the given failure data, our reliability growth analysis and reliability demo chart both determined the SUT to be reliable. In part one, we can see some increases in intensity for different intervals, but it was mostly stable. Same with part 2, where the data would shift from an acceptable state into the ‘continue’ testing state, but eventually also became fully acceptable. The overall trend of this failure data set suggests that the system is reliable.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
