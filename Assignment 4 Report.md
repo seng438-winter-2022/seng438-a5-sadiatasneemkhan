@@ -56,7 +56,19 @@ An advantage of reliability growth analysis is you have options to either inter 
 # Assessment Using Reliability Demonstration Chart 
 
 ## 3 plots for MTTFmin, twice and half of it for your test data	
+### MTTFmin
+![MTTF MIN 2000](https://user-images.githubusercontent.com/81999006/162556542-2e4eab71-e31e-4a7c-b162-d0aa55249430.png)
+
+### Double MTTFmin
+![MTTF DOUBLE 4000](https://user-images.githubusercontent.com/81999006/162556540-e6865187-dd5d-46ff-af8e-6e435193f6d0.png)
+
+### Half MTTFmin
+![MTTF HALF 1000](https://user-images.githubusercontent.com/81999006/162556541-0410d501-77a7-4458-9fdc-6c7f8e0c733f.png)
+
 ## Explain your evaluation and justification of how you decide the MTTFmin	
+
+Our group determined the MTTFmin using trial-and-error with the RDC file. We tried various values until we had come to the MTTFmin value of 2000. During the trial-and-error process, we would observe the R Demo Chart tab in order to see if the end of the black line would be within the green region. Once it was within the green region, we determined that the SUT had become acceptable.
+
 ## A discussion on the advantages and disadvantages of RDC
 
 Some of the main advantages of using RDC is that it gives us a clear visual representation of what the failure rate of the SUT is. This is very important when testing a system as it gives us an idea on whether the system is reliable enough to deploy. One disadvantage of RDC is that even though it displays the number of failures per unit time, it does not tell us how/why the system failed, which is important for debugging the system. 
@@ -69,7 +81,12 @@ Both of these two techniques are based on inter failure times and target failure
 
 # How the team work/effort was divided and managed
 
+The lab was made up of 2 components, one being the reliability growth testing, and the other using the reliability demonstration chart. We chose to split up into 2 groups, one would do Part 1 and the other worked on Part 2. After each part was completed, the groups would peer-review the results of the other groups and explain their approach to how they used the tools and software. After the lab itself was completed, we all met together and discussed the report questions together and how we're going to approach each of them. We then split the questions up equally among the 4 of us and went over each question at the end before submitting the lab.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+The difficulties encountered, like in previous labs, was setting up and using the software itself. We had trouble running STRAT, so we resolved to use C-SFRAT instead while another team member had trouble running both of these programs. Due to lack of instruction in the lab report, we also found ourselves looking online for resources on how to further use these tools but it was very difficult as there was not much to be found online. In the end, we ended up wasting a lot of time figuring out what exactly we needed to have done for this lab rather than working on the lab itself. However, as a result of our time doing this lab, we did end up learning some useful skills such as how to interpret reliability demonstration charts and reliability growth predictions.
+
 # Comments/feedback on the lab itself
+
+As mentioned in the difficulties above, there was a lack of instruction on how to properly use these programs. However, we did end up coming out with useful skills that I’m sure will help us in any future work we are involved in.
